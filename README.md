@@ -61,8 +61,8 @@ O(n^2).)
 
 4. Now suppose that you have a dictionary (or hash map) of customer objects, where the keys are letters and the values are arrays storing all customers with last name beginning with that letter. For example, if our dictionary is customers then customers["A"] is an array of all customers with last name ending with “A”. Within each array, the customer objects are not sorted in any way.
 
-a. Print the names of all of the customers.                                = O(n^2) - (There is a nested loop with one operation, which results in the value of n.  
-The outer loop does not have an operation, which results in n * (n), which is equal to O(n^2).)
+a. Print the names of all of the customers.                                = O(n) - (There is a nested loop with one operation, which results in the value of n.  
+The outer loop does not have an operation, and iterates 26 times which results in n * (26), which is equal to O(n).)
 
 b. Print the names of only the customers with last name starting with “A”. = O(n) - (where n is equal to the number of customers in array at Dictionary value A)
 
